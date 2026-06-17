@@ -1,0 +1,73 @@
+---
+title: "Data Cleaning"
+format: html
+---
+
+```{r packages,message=FALSE,warning=FALSE}
+library(tidyverse)
+library(tidyquant)
+library(rvest)
+```
+
+```{r stock-data}
+# Get S&P 500 stock symbols and sectors
+url <- "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+SP500 <- url %>%
+  read_html() %>%
+  html_table() %>%
+  .[[2]] %>%
+  mutate(Symbol = str_replace_all(Symbol,"\\.","-")) %>%
+  filter(!(Symbol %in% c("GEHC","GEV","KVUE","SOLS","SOLV","VLTO","Q")))
+
+# Get stock prices for all companies
+
+# stock_test <- map(SP500$Symbol, ~tq_get(.x, from = "2022-10-8", to = "2022-12-8")) %>%
+#   list_rbind()
+# 
+# write.csv(stock_test,"stock_test.csv")
+
+stock_test <- read_csv("~/ECON 381/Final Project/stock_test.csv")
+
+# ESG data
+ESG_raw <- read_csv("~/ECON 381/Final Project/Data/ESG_raw.csv")
+```
+
+```{r cleaning}
+ESG <- ESG_raw %>%
+  mutate(ticker = str_to_upper(ticker))
+
+clean_SP500 <- SP500 %>%
+  pivot_wider(names_from = `GICS Sector`, values_from = `GICS Sector`, values_fn = function(x) 1, values_fill = 0) %>%
+  select(-c(Security,`GICS Sub-Industry`,`Headquarters Location`,`Date added`,CIK,Founded))
+  
+```
+
+```{r merging}
+# Merge symbols
+symbols <- clean_SP500 %>% left_join(stock_test, by=join_by(Symbol==symbol))
+
+# Merge ESG
+ESGs <- stock_test %>% left_join(ESG, by=join_by(symbol==ticker)) %>%
+  drop_na()
+
+# Add baseline score
+baseline <- stock_test %>% 
+  filter(date == "2022-10-10") %>%
+  mutate(baseline_price = close) %>%
+  select(symbol,baseline_price)
+  
+# Combine baseline + Create normalized price for 10/10 (first day in data)
+# Find difference between mean price before and after election shock (proof of concept)
+data_initial <- ESGs %>% 
+  left_join(baseline,by=join_by(symbol==symbol)) %>%
+  mutate(
+    after_shock = if_else(date > "2022-11-8",1,0),
+    day = abs(as.numeric(difftime(min(date), date, units = "days"))),
+    log_price = log(close)) %>%
+  left_join(clean_SP500, by=join_by(symbol==Symbol))
+
+write.csv(data_initial,"data_initial.csv")
+```
+
+
+

@@ -1,0 +1,44 @@
+Table 4			
+		(1)	(2)
+VARIABLES	LABELS	No Interaction	Interaction
+			
+total_score	ESG Score	0.000	0.000
+		(0.000)	(0.000)
+1.after_shock	After Midterm Election? = 1		0.040
+			(0.077)
+0b.after_shock#co.total_score			0.000
+			(0.000)
+1.after_shock#c.total_score			-0.000
+			(0.000)
+day	day	0.002***	0.002***
+		(0.001)	(0.001)
+industrials	Industrials	4.709***	4.698***
+		(0.042)	(0.055)
+healthcare	Health Care	4.946***	4.935***
+		(0.043)	(0.055)
+informationtechnology	Information Technology	4.545***	4.534***
+		(0.042)	(0.055)
+utilities	Utilities	4.023***	4.012***
+		(0.045)	(0.057)
+financials	Financials	4.431***	4.420***
+		(0.039)	(0.053)
+materials	Materials	4.634***	4.623***
+		(0.047)	(0.059)
+consumerdiscretionary	Consumer Discretionary	4.537***	4.525***
+		(0.048)	(0.059)
+realestate	Real Estate	4.541***	4.530***
+		(0.043)	(0.056)
+communicationservices	Communication Services	4.156***	4.145***
+		(0.049)	(0.060)
+consumerstaples	Consumer Staples	4.501***	4.489***
+		(0.044)	(0.056)
+energy	Energy	4.351***	4.340***
+		(0.048)	(0.059)
+after_shock	After Midterm Election?	0.016	
+		(0.026)	
+			
+Observations		16,212	16,212
+R-squared		0.969	0.969
+Adjusted R-squared		0.969	0.969
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			

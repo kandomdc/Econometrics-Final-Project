@@ -1,0 +1,234 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
+{
+{\fs20\b\qc\line Table 1 }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx2530
+\fs20\pard\intbl\qr { }\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx3750
+\fs20\pard\intbl\qr {{ Mean}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx4970
+\fs20\pard\intbl\qr {{ SD}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx6190
+\fs20\pard\intbl\qr {{ N}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx7410
+\fs20\pard\intbl\qr {{ Min}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx8630
+\fs20\pard\intbl\qr {{ Max}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Log Stock Price}}\cell
+\cellx3750
+\qr {{4.63}}\cell
+\cellx4970
+\qr {{.859}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{1.853}}\cell
+\cellx8630
+\qr {{8.464}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ ESG Score}}\cell
+\cellx3750
+\qr {{1050.365}}\cell
+\cellx4970
+\qr {{205.223}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{600}}\cell
+\cellx8630
+\qr {{1536}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ day}}\cell
+\cellx3750
+\qr {{28.238}}\cell
+\cellx4970
+\qr {{17.385}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{58}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ After Midterm Election?}}\cell
+\cellx3750
+\qr {{.476}}\cell
+\cellx4970
+\qr {{.499}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Industrials}}\cell
+\cellx3750
+\qr {{.158}}\cell
+\cellx4970
+\qr {{.365}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Health Care}}\cell
+\cellx3750
+\qr {{.127}}\cell
+\cellx4970
+\qr {{.333}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Information Technology}}\cell
+\cellx3750
+\qr {{.127}}\cell
+\cellx4970
+\qr {{.333}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Utilities}}\cell
+\cellx3750
+\qr {{.073}}\cell
+\cellx4970
+\qr {{.259}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Financials}}\cell
+\cellx3750
+\qr {{.145}}\cell
+\cellx4970
+\qr {{.352}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Materials}}\cell
+\cellx3750
+\qr {{.049}}\cell
+\cellx4970
+\qr {{.216}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Consumer Discretionary}}\cell
+\cellx3750
+\qr {{.117}}\cell
+\cellx4970
+\qr {{.321}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Real Estate}}\cell
+\cellx3750
+\qr {{.062}}\cell
+\cellx4970
+\qr {{.241}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Communication Services}}\cell
+\cellx3750
+\qr {{.036}}\cell
+\cellx4970
+\qr {{.187}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2530
+\fs20\pard\intbl\ql {{ Consumer Staples}}\cell
+\cellx3750
+\qr {{.07}}\cell
+\cellx4970
+\qr {{.255}}\cell
+\cellx6190
+\qr {{16212.000}}\cell
+\cellx7410
+\qr {{0}}\cell
+\cellx8630
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx2530
+\fs20\pard\intbl\ql {{ Energy}}\cell
+\clbrdrb\brdrw15\brdrs\cellx3750
+\qr {{.036}}\cell
+\clbrdrb\brdrw15\brdrs\cellx4970
+\qr {{.187}}\cell
+\clbrdrb\brdrw15\brdrs\cellx6190
+\qr {{16212.000}}\cell
+\clbrdrb\brdrw15\brdrs\cellx7410
+\qr {{0}}\cell
+\clbrdrb\brdrw15\brdrs\cellx8630
+\qr {{1}}\cell
+\row}
+
+
+\writepositionforappend
+}}
